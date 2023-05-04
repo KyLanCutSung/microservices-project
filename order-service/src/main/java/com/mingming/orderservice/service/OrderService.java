@@ -6,6 +6,6 @@ import com.mingming.orderservice.model.Orders;
 import java.util.List;
 
 public interface OrderService {
-    void placeOrder(OrderRequest orderRequest);
+    String placeOrder(OrderRequest orderRequest);
     List<Orders> findAll();
 }
